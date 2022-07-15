@@ -1,12 +1,10 @@
-.postList {
-  margin-top: 50px;
+.postListWrapper {
+  margin: 1.875rem 0 3.125rem 0;
 }
 
-.postListTitle {
-}
-
-.postListTitle h1 {
+.postTitle {
   font-weight: 900;
-  font-size: 46px;
+  font-size: 30px;
+  text-align: center;
   color: #1e212c;
 }
