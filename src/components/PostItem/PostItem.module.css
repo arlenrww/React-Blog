@@ -42,12 +42,5 @@
 
 .postItemBtn {
   display: flex;
-}
-
-.open {
-  background-color: red !important;
-}
-
-.del {
-  background-color: green !important;
+  gap: 10px;
 }

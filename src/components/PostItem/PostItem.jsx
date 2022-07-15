@@ -17,8 +17,8 @@ const PostItem = () => {
           </p>
         </div>
         <div className={styles.postItemBtn}>
-          <Button className={styles.open}>Создать пост</Button>
-          <Button className={styles.del}>Создать пост</Button>
+          <Button view="white">Открыть</Button>
+          <Button view="white">Удалить</Button>
         </div>
       </div>
     </div>

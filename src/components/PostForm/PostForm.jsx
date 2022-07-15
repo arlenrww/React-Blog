@@ -10,7 +10,7 @@ const PostForm = () => {
       <form className={styles.formWrapper}>
         <Input placeholder="Название поста" />
         <Input placeholder="Описание поста" />
-        <Button>Создать пост</Button>
+        <Button view='orange'>Создать пост</Button>
       </form>
       <div
         style={{

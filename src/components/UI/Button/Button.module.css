@@ -1,4 +1,4 @@
-.button {
+.orange {
   /* Button */
   width: 217px;
   padding: 20px 50px;
@@ -14,4 +14,19 @@
   font-size: 16px;
   letter-spacing: 0.5px;
   text-align: center;
+}
+
+.white {
+  width: 126px;
+  height: 44px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #ff3f3a;
+  cursor: pointer;
+
+  /* Text */
+  font-weight: 700;
+  font-size: 14px;
+  color: #ff3f3a;
+  letter-spacing: 0.5px;
 }
