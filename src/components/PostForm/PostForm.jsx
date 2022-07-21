@@ -20,9 +20,9 @@ const PostForm = ({ create }) => {
     create(newPost);
     setText({ title: "", body: "" });
   };
+
   return (
     <div className={styles.postForm}>
-      <h1 className={styles.postFormTitle}>Создай свой пост</h1>
       <form className={styles.formWrapper}>
         <Input
           onChange={(e) => setText({ ...text, title: e.target.value })}
@@ -42,7 +42,7 @@ const PostForm = ({ create }) => {
         style={{
           margin: "20px 0",
           border: "1px solid #D7DADD",
-          background: "#D7DADD",
+          background: "#FFFFFF",
         }}
       ></div>
     </div>

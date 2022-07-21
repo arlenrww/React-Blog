@@ -1,0 +1,14 @@
+.modalWrapper {
+  position: relative;
+}
+
+.modal {
+  position: absolute; 
+  max-width: 500px;
+  top: 200px;
+  right: 465px;
+  border: 1px solid red;
+  padding: 50px;
+  background-color: red;
+  border-radius: 30px; 
+}
